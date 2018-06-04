@@ -1,0 +1,75 @@
+.body-gray {
+	background-color: rgba(0,0,0,.2);
+}
+.wrap {
+	position: relative;
+	/*width: 1440px;*/
+	padding: 75px 244px 80px 98px;
+	font:17px/24px "微软雅黑";
+}
+/*header*/
+header {
+	background-color: #FFF;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.menu-wrap {
+	float: right;
+	position: relative;
+	word-spacing: 0.2px;
+}
+.menu-wrap .menu{
+	display: none;
+}
+.menu-wrap .menu .selected {
+	background-color: rgba(0,0,0,.5);
+}
+/*aside*/
+aside {
+	width: 280px;
+	float: left;
+	margin-right:124px;
+}
+.unit .unit-item {
+	font-weight: normal;
+	padding: 0 18px;
+	line-height: 32px;
+}
+.unit a {
+	color: #4A4A4A;
+}
+.unit span {
+	display: inline-block;
+}
+.unit .unit-item :nth-child(1) {
+	width: 86px;
+}
+.unit .unit-bar-list{
+	padding-left: 86px;
+	display: none;
+}
+.unit .unit-bar-list li {
+	position: relative;
+}
+.unit .unit-bar-list .term:before {
+	content: url(../img/Oval.png);
+	position: absolute;
+	left: -15px;
+	top:-2px;
+}
+/*.unit-menu
+.unit-menu*/
+article {
+	overflow: auto;
+	width: 600px;
+	float: left;
+	height: 600px;
+}
+article h2 {
+	font: 36px/36px "微软雅黑";
+}
+article p {
+	word-spacing: 0;
+}
